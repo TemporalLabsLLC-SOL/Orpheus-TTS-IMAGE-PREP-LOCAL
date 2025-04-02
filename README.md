@@ -12,7 +12,7 @@ Sign-in on HuggingFace
 `git clone https://github.com/canopyai/Orpheus-TTS.git`
 
 #Navigate and install packages
-`cd Orpheus-TTS && pip install orpheus-speech # uses vllm under the hood for fast inference`
+`cd Orpheus-TTS && pip install orpheus-speech` # uses vllm under the hood for fast inference
 
 `vllm pushed a slightly buggy version on March 18th so some bugs are being resolved by reverting to pip install vllm==0.7.3 after pip install orpheus-speech`
 
