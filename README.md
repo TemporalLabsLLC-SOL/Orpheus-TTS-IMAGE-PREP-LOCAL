@@ -6,7 +6,7 @@ Quickly prepare and upload your image dataset to huggingface all with one simple
 Sign-in on HuggingFace
 `https://huggingface.co/canopylabs/orpheus-3b-0.1-pretrained`
   - Sign Gated Permission Agreement
-#Create Full HF Token - Prepare to Paste in Terminal
+`huggingface-cli login <YOUR_HF_TOKEN>`
 
 # SETUP ENVIRONMENT AND NAVIGATE TO INTENDED DIRECTORY ROOT
 
@@ -18,3 +18,17 @@ Sign-in on HuggingFace
 
 vllm pushed a slightly buggy version on March 18th so some bugs are being resolved by reverting to `pip install vllm==0.7.3` after pip install orpheus-speech
 
+# INSTALL THIS REPO AND SCRIPT
+
+`git clone https://github.com/TemporalLabsLLC-SOL/Orpheus-TTS-IMAGE-PREP-LOCAL.git`
+
+### Place process_audio.py within `./Orpheus-TTS/pretrain/`
+
+`cd pretrain`
+
+## Start Audio Processing
+
+`python3 audio_process.py`
+
+### A Popup will request you to select an audio file - Select Any Audio File
+### 
