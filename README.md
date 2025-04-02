@@ -10,10 +10,10 @@ Sign-in on HuggingFace
 
 # SETUP ENVIRONMENT AND NAVIGATE TO INTENDED DIRECTORY ROOT
 
-# Clone main Orepheus-TTS repo
+## Clone main Orepheus-TTS repo
 `git clone https://github.com/canopyai/Orpheus-TTS.git`
 
-# Navigate and install packages
+## Navigate and install packages
 `cd Orpheus-TTS && pip install orpheus-speech`
 
 vllm pushed a slightly buggy version on March 18th so some bugs are being resolved by reverting to `pip install vllm==0.7.3` after pip install orpheus-speech
