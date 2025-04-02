@@ -33,5 +33,11 @@ vllm pushed a slightly buggy version on March 18th so some bugs are being resolv
 `python3 audio_process.py`
 
 ### A Popup will request you to select an audio file - Select Any Audio File
-### As Requested, simply give the names of your databases in the expected format of <YOUR_HF_USERNAME>/<ANY_NAME_YOU_WANT> (Example UrbanLegendXV/SolomonVoice1-deux)
+### As Requested, simply give the names of your databases in the expected format of 
+
+`<YOUR_HF_USERNAME>/<ANY_NAME_YOU_WANT>` 
+
+Example
+`UrbanLegendXV/SolomonVoice1-deux`
+
 #### This Creates The DataBases
